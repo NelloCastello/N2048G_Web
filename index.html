@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>N2048G</title>
+</head>
+
+<body>
+    <div class="game_container">
+        <div class="game__content">
+            <div class="game__info">
+                <h1 class="game__heading">2048</h1>
+                <div class="game__state__g">
+                    <div class="game__score game__state">
+                        <h1>Счет</h1>
+                        <p id="score">336</p>
+                    </div>
+                    <div class="game__record game__state">
+                        <h1>Рекорд</h1>
+                        <p id="record">972</p>
+                    </div>
+                </div>
+            </div>
+            <div class="game__field">
+                <div class="game__field__cells_container">
+                    <div class="game__field__cells__row">
+                        <div class="game__field__cells__coll"></div>
+                        <div class="game__field__cells__coll"></div>
+                        <div class="game__field__cells__coll"></div>
+                        <div class="game__field__cells__coll"></div>
+                    </div>
+                    <div class="game__field__cells__row">
+                        <div class="game__field__cells__coll"></div>
+                        <div class="game__field__cells__coll"></div>
+                        <div class="game__field__cells__coll"></div>
+                        <div class="game__field__cells__coll"></div>
+                    </div>
+                    <div class="game__field__cells__row">
+                        <div class="game__field__cells__coll"></div>
+                        <div class="game__field__cells__coll"></div>
+                        <div class="game__field__cells__coll"></div>
+                        <div class="game__field__cells__coll"></div>
+                    </div>
+                    <div class="game__field__cells__row">
+                        <div class="game__field__cells__coll"></div>
+                        <div class="game__field__cells__coll"></div>
+                        <div class="game__field__cells__coll"></div>
+                        <div class="game__field__cells__coll"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="game__control_buttons">
+                <button class="game__control_button">Начать заново</button>
+                <button class="game__control_button">Отменить ход</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+
+</html>

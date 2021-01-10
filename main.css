@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    line-height: 1;
+}
+
+p {
+    margin: 0;
+    line-height: 1;
+}
+
+.game_container {
+    padding: 0 20px;
+    background-image: url("./img/bg/tmb_230424_393765.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.game__content {
+    flex: 1;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.game__info {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.game__heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    color: #A4A4A4;
+    margin-right: 25px;
+}
+
+.game__state__g {
+    display: flex;
+    text-align: center;
+}
+
+.game__state {
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 97px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.game__state:last-child {
+    margin-right: 0;
+}
+
+.game__state h1 {
+    font-size: 14px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+
+.game__state p {
+    font-size: 24px;
+}
+
+.game__score {
+    background: #00c35a;
+}
+
+.game__record {
+    background: #ecd611;
+}
+
+.game__field {
+    background: #ac9a9a;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.game__field__cells_container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.game__field__cells__row {
+    flex: 1;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.game__field__cells__row:first-child {
+    margin-top: 15px;
+}
+
+.game__field__cells__coll {
+    flex: 1;
+    margin-right: 15px;
+    background: rgba(205, 187, 187, 0.75);
+    border-radius: 5px;
+}
+
+.game__field__cells__coll:first-child {
+    margin-left: 15px;
+}
+
+.game__control_buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game__control_button {
+    padding: 10px 23px;
+    background: #ed4925;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+    transition: background 0.5s;
+    cursor: pointer;
+}
+
+.game__control_button:last-child {
+    margin-right: 0;
+}
+
+.game__control_button:hover {
+    transition: background 0.5s;
+    background: #135239;
+}
+
+.game__control_button:active {
+    margin: 1px 3px;
+    padding: 9px 20px;
+}
